@@ -1,0 +1,153 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.containerProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.containerProductTop {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 90%;
+}
+
+.containerProductTopNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.cartTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+    p {
+        width: 80%;
+    }
+
+    .faHeart {
+        font-size: 20px;
+    }
+}
+
+.containerProductTopNavbars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        gap: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color:
+            rgb(110, 110, 110);
+        font-weight: 600;
+    }
+
+
+}
+
+.containerProductTopNavbarIcons {
+    display: flex;
+    gap: 30px;
+
+}
+
+.ProductIcons {
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgb(182, 179, 179);
+}
+
+.Products {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+
+    >div {
+        border: 1px solid rgb(189, 188, 188);
+    }
+}
+
+
+.addCard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+button {
+   
+    padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 100px;
+        border: none;
+        background-color: #6170d1;
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        transition: 0.5s;
+
+        &:hover{
+            background-color: black;
+            transition: 0.5s;
+        }
+
+}
+
+.ProductItem {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.ProductItem img {
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+
+.ProductItem p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.ProductItem p:last-child {
+    margin-top: 5px;
+    font-size: 14px;
+}
